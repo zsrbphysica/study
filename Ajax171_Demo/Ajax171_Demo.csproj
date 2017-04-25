@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AsyncFileUpload_Demo.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="AllControl.aspx.designer.cs">
       <DependentUpon>AllControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsyncFileUpload_Demo.aspx.cs">
+      <DependentUpon>AsyncFileUpload_Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsyncFileUpload_Demo.aspx.designer.cs">
+      <DependentUpon>AsyncFileUpload_Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
